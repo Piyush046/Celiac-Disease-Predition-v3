@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ID Card</title>
+
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+        background-color: #f0f0f0;
+      }
+      
+      .id-card {
+        background-image: linear-gradient(rgb(19, 200, 210) , white 50%);
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+        padding: 20px;
+        position: fixed;
+        border-radius: 8px;
+        text-align: center;
+        width: 300px;
+        height: 400px;
+      }
+      
+      .header img {
+        width: 160px;
+        height: 200px;
+        border-radius: 10%;
+        margin-bottom: 10px;
+        transition-property: all;
+        transition-duration: 4s;
+        transition-timing-function: linear;
+
+        
+    }
+
+    .header img:hover{
+        width: 0px;
+        height: 0px;
+        
+    }
+      
+      .header h2 {
+        margin: 5px;
+        
+      }
+      
+      .header p {
+        color: #0977c6;
+        margin: 5px 0;
+        font-size: small;
+       
+      }
+      .details{
+          display: flex;
+          justify-content: center;
+          justify-content:space-around;
+          margin: -5px 20px;
+
+      }
+      
+      .details img {
+
+        margin-top: 40px;
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        
+        
+      }
+      
+</style>
+</head>
+<body>
+  <div class="id-card">
+    <div class="header">
+      <img src="piyu.jpg" alt="Profile Picture">
+      <h2>Piyush Pandey </h2>
+      <p >Front-end Developer</p>
+    </div>
+    <div class="details">
+      <img src="fb.jpg" alt="">
+      <img src="ln.jpg" alt="">
+      <img src="yt.jpg" alt="">
+      <img src="tw.jpg" alt="">
+
+      
+  </div>
+</body>
+</html>
